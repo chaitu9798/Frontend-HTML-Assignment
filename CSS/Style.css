@@ -1,0 +1,152 @@
+nav {
+    height:250px;
+}
+#h1{
+    font-size:35px;
+    font-weight:bold;
+    font-family:Alata;
+    margin:500px;
+    margin-top:350px;
+    color: white;
+}
+#h2{
+    font-size:35px;
+    font-weight:bold;
+    font-family:Alata;
+    margin-top:-98px;
+    margin-left:-549px;
+    color: white;
+}
+#h3 {
+    font-family: Allerta;
+    font-size:35px;
+    font-weight:bold;
+    margin-top:40px;
+    margin-left:-255px;
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #ac0aa4, #f6e607);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  #emoji{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    margin-top:40px;
+}
+div.card {
+    width:600px;
+    height:200px;
+    border-radius:30px;
+    margin-top:320px;
+    margin-left:-400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#Paytm-logo {
+    width:110px;
+    height:fit-content;
+    margin-left:250px;
+    margin-top:30px;
+}
+#Paytm-design1 {
+    width:100px;
+    height:fit-content;
+    margin-left:497px;
+    margin-top:-65px;
+}
+#Paytm-design2 {
+    width:100px;
+    height:fit-content;
+    margin-left:1px;
+    margin-top:-65px;
+}
+div.card-title{
+    font-family:Courgette;
+    font-size:50px;
+    font-weight:bold;
+    margin-top:-15px;
+    margin-left:120px;
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #ac0aa4, #f6e607);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#p1{
+    margin-top:170px;
+    font-family:Antic;
+    font-size:25px;
+    margin-left:105px;
+}
+#phone {
+    width:350px;
+    height:55px;
+    border-color:gainsboro;
+    background-color:whitesmoke;
+    border-radius:30px;
+    margin-left:360px;
+    margin-top:-20px;
+}
+input[type=tel]{
+    font-size:24px;
+    padding-left:95px;
+}
+input::placeholder {
+    color:rgb(245, 241, 241);
+    font-size:20px;
+    padding-left:-100px;
+}
+#p2{
+    font-family:Antic;
+    margin-left:380px;
+}
+#submit {
+    width:350px;
+    height:55px;
+    font-family:Arial;
+    font-size:20px;
+    border-radius:30px;
+    background-color: rgb(10, 177, 243);
+    color:white;
+    margin-left:360px;
+}
+#submit:disabled {
+    background-color:gray;
+    color: white;
+    border-color:gainsboro;
+}
+#submit:enabled {
+    box-shadow: 4px 9px 17px lightskyblue;
+}
+#p3 {
+color: rgb(10, 177, 243);
+text-shadow:3px 3px 10px lightgreen;
+font-family:Ebrima;
+font-size:50px;
+font-weight:540;
+padding-top:200px;
+padding-left:530px;
+}
