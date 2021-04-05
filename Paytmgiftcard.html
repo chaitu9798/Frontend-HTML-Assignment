@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/Style.css">
+        <script src="JS/Script.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand bg-dark">
+    <div id="h1" class="navbar-brand">man</div>
+    <div id="h2" class="navbar-brand">matters</div>
+    <div id="h3">Congratulations</div>
+    <img id="emoji" src="Images/Party Face Emoji.png">
+    <div class="card">
+      <img id="Paytm-logo" class="card-img-top" src="Images/Paytm-Logo.png" alt="Paytm-logo">
+      <img id="Paytm-design1" class="card-img-top" src="Images/Paytm-design1.png" alt="Paytm-design1">
+      <div class="card-body">
+        <div class="card-title">Gift Card ₹200</div>
+      </div>
+      <img id="Paytm-design2" class="card-img-bottom" src="Images/Paytm-design2.png" alt="Paytm-design2">
+    </div>
+  </nav>
+  <div class="container">
+    <p id="p1">You have WON Paytm Gift Card of Rs 200 <b>placing the order on Man Matters</b></p>
+    <form action="connect.jsp" method="post">
+      <div class="form-group">
+        <label for="exampleFormControlInput1"></label>
+        <input name="number" type="tel" class="form-control" id="phone" maxlength="10" onkeyup="isInputNumber(event)" onkeypress="isInputNumber(event)" placeholder="Enter Mobile Number">
+      </div>
+      <p id="p2">Enter the same number used on Man Matters</p>
+      <input name="submit" class="btn" type="submit" id="submit" onClick="parent.open('Thankyou.html')" value="Wow! Get my Paytm Gift Card >" disabled>
+    </form>
+  </div>
+</body>
+</html>
