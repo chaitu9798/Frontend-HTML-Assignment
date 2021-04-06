@@ -8,6 +8,7 @@ nav {
     margin:500px;
     margin-top:350px;
     color: white;
+    user-select:none;
 }
 #h2{
     font-size:35px;
@@ -16,6 +17,7 @@ nav {
     margin-top:-98px;
     margin-left:-549px;
     color: white;
+    user-select:none;
 }
 #h3 {
     font-family: Allerta;
@@ -39,12 +41,14 @@ nav {
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+    user-select:none;
   }
-  #emoji{
+ #emoji{
     width:40px;
     height:40px;
     margin-left:10px;
     margin-top:40px;
+    user-select:none;
 }
 div.card {
     width:600px;
@@ -59,18 +63,21 @@ div.card {
     height:fit-content;
     margin-left:250px;
     margin-top:30px;
+    user-select:none;
 }
 #Paytm-design1 {
     width:100px;
     height:fit-content;
     margin-left:497px;
     margin-top:-65px;
+    user-select:none;
 }
 #Paytm-design2 {
     width:100px;
     height:fit-content;
     margin-left:1px;
     margin-top:-65px;
+    user-select:none;
 }
 div.card-title{
     font-family:Courgette;
@@ -94,12 +101,14 @@ div.card-title{
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+    user-select:none;
 }
 #p1{
     margin-top:170px;
     font-family:Antic;
     font-size:25px;
     margin-left:105px;
+    user-select:none;
 }
 #phone {
     width:350px;
@@ -118,10 +127,12 @@ input::placeholder {
     color:rgb(245, 241, 241);
     font-size:20px;
     padding-left:-100px;
+    user-select:none;
 }
 #p2{
     font-family:Antic;
     margin-left:380px;
+    user-select:none;
 }
 #submit {
     width:350px;
@@ -149,4 +160,5 @@ font-size:50px;
 font-weight:540;
 padding-top:200px;
 padding-left:530px;
+user-select:none;
 }
