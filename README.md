@@ -1,2 +1,1 @@
-# Frontend-HTML-Assignment
-Frontend HTML Assignment
+# Paytm-Gift-card-Page-Design
